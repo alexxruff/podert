@@ -1,0 +1,95 @@
+html,body{
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+}
+.navbarTop{
+	position: fixed;
+	width: 100%;
+	z-index: 2001;
+}
+nav{
+	padding: 0 1rem !important;
+}
+.logo{
+	width: 70px;
+}
+button{
+	color: #fff !important;
+}
+.ulNav{
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+.ulNav li a{
+	color: #fff !important;
+}
+.portada{
+	background: url('../images/Beleuchtungsanlagen.jpg') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+}
+.gradient{
+	height: 100%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+79,000000+79,000000+100&0.65+67,0+100 */
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 67%, rgba(0,0,0,0.41) 79%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 67%,rgba(0,0,0,0.41) 79%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0.65) 67%,rgba(0,0,0,0.41) 79%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+	background-attachment: fixed;
+}
+.port{
+	height: 100%;
+}
+.contenido{
+	height: 50%;
+	padding-top: 40px; 
+}
+.contenido2{
+	height: 70%;
+}
+.nave{
+	width: 100%;
+}
+.contentHeader{
+	display: flex;
+	justify-content: center;
+	/*align-items: center;*/
+	flex-direction: column;
+	height: 700px;
+	color: #fff;
+}
+.contentHeader h2{
+	font-size: 48px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+.nota{
+	color: #3c78d8;
+}
+.pNota{
+	font-weight: 300;
+}
+.botonHeader{
+	padding: 8px 12px;
+	color: #fff;
+	text-align: center;
+	background-color: #3c78d8;
+	width: 150px;
+	border-radius: 20px;
+	text-decoration: none !important;
+	border: 1px solid #3c78d8;
+}
+.botonHeader:hover{
+	background-color: #fff;
+	border: 1px solid #3c78d8;
+	color: #3c78d8;
+}
+
+
+
+
+
+
