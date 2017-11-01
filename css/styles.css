@@ -88,6 +88,27 @@ button{
 	color: #3c78d8;
 }
 
+@media (max-width: 550px ){
+	.contenido{
+		height: 100%;
+	}
+	.contenido .container .row div:first-child{
+		margin-top: 0px;
+	}	
+	.contenido .container .row div{
+		margin-top: 50px;
+	}
+	.contenido2{
+		height: 100%;
+	}
+	.contenido2 .container .row div:first-child{
+		margin-top: 0px;
+	}	
+	.contenido2 .container .row div{
+		margin-top: 30px;
+	}
+
+}
 
 
 
