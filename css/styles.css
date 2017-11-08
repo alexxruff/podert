@@ -114,6 +114,35 @@ button{
 	color: white;
 	height: 100px;
 }
+.services{
+	padding: 0 15px;
+	padding-top: 15px;
+	transition: .5s;
+}
+.services:hover{
+	box-shadow: rgba(0,0,0,.5) 0px 0px 30px;
+	transition: 1s;
+}
+.servicios{
+	height: 190px;
+}
+.serviciosItem{
+	height: 210px;
+}
+.itemService{
+	margin-top: 30px;
+	padding: 0 15px;
+	padding-top: 15px;
+	transition: .5s;
+}
+.itemService:hover{
+	box-shadow: rgba(0,0,0,.5) 0px 0px 30px;
+	transition: 1s;
+}
+.center{
+	text-align: center;
+	margin-bottom: 30px; 
+}
 @media (max-width: 550px ){
 	.contenido{
 		height: 100%;
