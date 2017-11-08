@@ -5,14 +5,13 @@ $(document).ready(function(){
 	$(window).scroll(function(){
 		var barra = $(window).scrollTop();
 		var posicion =  (barra * 0.13);
-		console.log(barra)
 		$('.portada').css({
 			'background-position': '0 -' + posicion + 'px'
 		});
 
 		if (barra > 150) {
 			$('.navbarTop').css({
-				'background': '#1F1F1F',
+				'background': '#272727',
 				'transition' : '.5s'
 			});		
 		}else{

@@ -40,15 +40,37 @@ button{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 	background-attachment: fixed;
 }
-.port{
-	height: 100%;
+.jobs{
+	/*height: 100%;*/
+	background: url('../images/jobs.png') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.jobsWhite{
+	padding: 80px 0;
+	background-color: rgba(255,255,255, .8);
+}
+.jobs .jobsWhite .container h3{
+	color: #454545;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.card{
+	box-shadow: rgba(0,0,0,.4) 0px 0px 30px;
+	padding-top: 20px;
+	height: 400px;
+}
+.card-title{
+	text-transform: capitalize !important;
 }
 .contenido{
-	height: 50%;
-	padding-top: 40px; 
+	/*height: 50%;*/
+	padding-top: 60px; 
+	padding-bottom: 60px; 
 }
 .contenido2{
-	height: 70%;
+	padding-top: 40px; 
+	padding-bottom: 60px; 
 }
 .nave{
 	width: 100%;
@@ -87,7 +109,11 @@ button{
 	border: 1px solid #3c78d8;
 	color: #3c78d8;
 }
-
+.footer{
+	background-color: #272727;
+	color: white;
+	height: 100px;
+}
 @media (max-width: 550px ){
 	.contenido{
 		height: 100%;
