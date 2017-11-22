@@ -59,6 +59,7 @@ button{
 	box-shadow: rgba(0,0,0,.4) 0px 0px 30px;
 	padding-top: 20px;
 	height: 400px;
+	width: 90%;
 }
 .card-title{
 	text-transform: capitalize !important;
@@ -112,7 +113,8 @@ button{
 .footer{
 	background-color: #272727;
 	color: white;
-	height: 100px;
+	padding: 15px 0;
+	/*height: 100px;*/
 }
 .services{
 	padding: 0 15px;
@@ -123,17 +125,41 @@ button{
 	box-shadow: rgba(0,0,0,.5) 0px 0px 30px;
 	transition: 1s;
 }
+.services i{
+	font-size: 40px;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 10px;
+	color: #007bff;
+}
+.services div h4{
+	text-align: center;
+}
 .servicios{
-	height: 190px;
+	height: 150px;
+	font-size: 14px;
+	font-weight: 300;
 }
 .serviciosItem{
-	height: 210px;
+	height: 150px;
 }
 .itemService{
-	margin-top: 30px;
+	/*margin-top: 30px;*/
 	padding: 0 15px;
 	padding-top: 15px;
 	transition: .5s;
+	font-size: 14px;
+	font-weight: 300;
+}
+.itemService div h4{
+	text-align: center;
+}
+.itemService div i{
+	font-size: 40px;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 10px;
+	color: #007bff;
 }
 .itemService:hover{
 	box-shadow: rgba(0,0,0,.5) 0px 0px 30px;
@@ -142,6 +168,50 @@ button{
 .center{
 	text-align: center;
 	margin-bottom: 30px; 
+}
+.contacto{
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+}
+.contenedorInput{
+	display: flex;
+}
+.inputs{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+.textarea{
+	width: 50%;
+}
+.inputs input{
+	width: 95%;
+	margin-bottom: 25px;
+	height: 40px;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	font-weight: 300;
+}
+.textarea textarea{
+	width: 95%;
+	margin-bottom: 15px;
+	height: 88%;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	font-weight: 300;	
+}
+.footerRealizado{
+	font-weight: 300;
+	width: 100%;
+	text-align: center;
+	margin-top: 35px;
+}
+.contactoParrafo{
+	font-weight: 300;
+	font-size: 15px;
 }
 @media (max-width: 550px ){
 	.contenido{
