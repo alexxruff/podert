@@ -1,4 +1,10 @@
-$(document).ready(function(){ 	
+$(document).ready(function(){ 
+	$('#menuTrabajos').click(function(){
+		$('body, html').animate({
+			scrollTop: $('#trabajos').offset().top
+		}, 500);
+
+	});		
 		if ($(window).width() < 520){
 			console.log('Prueba');
 		}
