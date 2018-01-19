@@ -23,7 +23,7 @@ button{
 	justify-content: flex-end;
 }
 .ulNav li a{
-	color: #fff !important;
+	color: #fff;
 }
 .portada{
 	background: url('../images/Beleuchtungsanlagen.jpg') no-repeat;
