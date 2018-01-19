@@ -69,6 +69,10 @@ button{
 }
 .card-title{
 	text-transform: capitalize !important;
+	font-size: 20px;
+}
+.trabajos{
+	height: 180px;
 }
 .contenido{
 	/*height: 50%;*/
