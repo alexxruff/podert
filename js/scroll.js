@@ -17,14 +17,32 @@ $(document).ready(function(){
 
 		if (barra > 150) {
 			$('.navbarTop').css({
-				'background': '#272727',
-				'transition' : '.5s'
+				'background': '#ffffff',
+				'transition' : '.5s',
+				'boxShadow' : 'rgba(0,0,0,.3) 5px 5px 10px'
+			});		
+			$('.nav-link').css({
+				'color': '#222'
 			});		
 		}else{
 			$('.navbarTop').css({
 				'background': 'transparent',
-				'transition' : '.5s'
+				'transition' : '.5s',
+				'boxShadow' : 'none'
 			});		
+			$('.nav-link').css({
+				'color': '#fff'
+			});	
+		}
+
+		if (barra > 150) {
+			$('.nav-link').css({
+				'color': '#222'
+			});		
+		}else{
+			$('.nav-link').css({
+				'color': '#fff'
+			});	
 		}
  
 	});
