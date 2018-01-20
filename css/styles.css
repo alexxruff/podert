@@ -2,17 +2,32 @@ html,body{
 	height: 100%;
 	font-family: 'Roboto', sans-serif;
 	box-sizing: border-box;
+	position: relative;
 }
 .navbarTop{
 	position: fixed;
 	width: 100%;
 	z-index: 2001;
+	padding-top: 20px;
+}
+.navbarTop11{
+	width: 100%;
 }
 nav{
 	padding: 0 1rem !important;
 }
 .logo{
-	width: 70px;
+	width: 110px;
+	/*box-shadow: rgba(255,255,255, .4) 0px 0px 20px;*/
+	padding: 5px;
+	transition: .5s;
+	border-radius: 20px;
+}
+.logo:hover{
+	box-shadow: rgba(255,255,255, .4) 0px 0px 30px;
+	padding: 5px;
+	border-radius: 20px;
+	transition: .5s;
 }
 button{
 	color: #fff !important;
@@ -30,6 +45,10 @@ button{
 	background-size: cover;
 	background-attachment: fixed;
 	height: 100%;
+	position: relative;
+}
+.navbarTop1{
+	position: absolute;
 }
 .portadaNosotros{
 	background: url('../images/nosotros.jpeg') no-repeat;
@@ -66,6 +85,7 @@ button{
 	padding-top: 20px;
 	height: 400px;
 	width: 90%;
+	cursor: pointer;
 }
 .card-title{
 	text-transform: capitalize !important;
@@ -258,14 +278,75 @@ button{
 	display: flex;
 	justify-content: space-around;
 }
+.titleP div{
+	width: 33.3%;
+	text-align: center;
+	font-weight: bold;
+}
 .infoProveedores{
 	width: 85%;
 	display: flex;
 	justify-content: space-between;	
-	margin-top: 30px;
+	margin-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #aeb5bb; 
 }
 .infoProveedores div{
-	width: 33.3%
+	width: 33.3%;
+	text-align: center;
+}
+.galeria{
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.9);
+	top: 0;
+	bottom: 0;
+	z-index: 2005;
+}
+.galeria1{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.galeria .galeria1 i{
+	color: white;
+	font-size: 50px;
+	cursor: pointer;
+}
+.cerrarGaleria{
+	position: fixed;
+	top: 20px;
+	right: 30px;
+	font-size: 30px !important;
+	color: white;
+	cursor: pointer;
+}
+.galeria2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.galeria3{
+	max-width: 500px;
+	max-height: 450px;
+	background: white;
+}
+.titleGaleria{
+	color: white;
+	text-align: center;
+	margin-top: 10px;
+}
+.descriptionGaleria{
+	color: white;
+	text-align: center;
+}
+.moreJobs{
+	margin-top: 100px;
 }
 @media (max-width: 550px ){
 	.contenido{
